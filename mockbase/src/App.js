@@ -8,18 +8,18 @@ class App extends Component {
       
       <div className="App">
         <div className="App-header">
-          <h2>Login to mockbase</h2>
+          <img src="images/logo.png" className="img-responsive center-block" id="logo" />
         </div>
-          <div className="App-input">
-            <input type="login" className="form-control input-underline input-lg" placeholder="Login" /> 
+          <div className="App-input form-group">
+            <input type="login" className="form-control input-underline input-lg" placeholder="Email" /> 
           </div>
-          <div className="App-input">
+          <div className="App-input form-group">
             <input type="password" className="form-control input-underline input-lg" placeholder="Password" /> 
           </div>
-          <div className="input-group">
+          {/* <div className="input-group">
             <span className="input-group-addon" id="basic-addon1">@</span>
             <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-          </div>
+          </div> */}
       </div>
     );
   }

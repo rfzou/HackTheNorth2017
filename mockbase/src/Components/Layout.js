@@ -6,7 +6,7 @@ class Layout extends Component
       return (
         <div className="App">
           <div className="App-header">
-            <h2>Login to mockbase</h2>
+            <img src="images/Transparent Square Logo.png">
           </div>
             <div className="App-input">
               <input type="login" className="form-control input-underline input-lg" placeholder="Login" /> 

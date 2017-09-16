@@ -1,21 +1,32 @@
+body {
+  background-color: #37474f;
+  font-family: -apple-system, 'avenir next', avenir, roboto, noto, ubuntu, 'helvetica neue', helvetica, arial, sans-serif;  
+}
+
 .App 
 {
   text-align: center;
+  max-width: 36em;
+  margin-left: auto;
+  margin-right: auto;  
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .App-header 
 {
-  background-color: #21A8F7;
-  height: 150px;
-  padding: 20px;
-  color: white;
-  font-size: x-large;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.App-input
-{
-  
+#logo {
+  max-width: 200px;
 }
+
+/* .App-input
+{
+  padding-bottom: 1rem;  
+} */
 
 .App-intro 
 {
