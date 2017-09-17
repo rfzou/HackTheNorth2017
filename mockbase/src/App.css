@@ -23,6 +23,22 @@ body {
   max-width: 200px;
 }
 
+.btn-primary {
+  /* background-color: #F57F17; */
+  background: #0288D1;
+  height: 46px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  background-color: #0277BD;
+  border-color: #0277BD;
+}
+
+.registertext {
+  color: white;
+  display: inline-block;
+}
+
 /* .App-input
 {
   padding-bottom: 1rem;  
